@@ -81,11 +81,11 @@ os.system('cls')
 # print(sum)
 
 # ==== STRINGS ====
-# course = 'Python for Beginners'
+course = 'Python for Beginners'
 # print(course.upper())
 # print(course.find('y'))
 # print(course.replace('for', '4'))
-# print('Python' in course)
+print('Python' in course)
 
 # ==== IF STATEMENTS ====
 # temperature = 25
@@ -252,15 +252,15 @@ os.system('cls')
 
 # === Fizz Buzz ===
 
-def fizz_buzz(input):
+# def fizz_buzz(input):
 
-    if (input % 3) == 0 == (input % 5):
-        return "FizzBuzz"
-    elif (input % 3) == 0:
-        return "Fizz"
-    elif (input % 5) == 0:
-        return "Buzz"
-    else:
-        return input
+#     if (input % 3) == 0 == (input % 5):
+#         return "FizzBuzz"
+#     elif (input % 3) == 0:
+#         return "Fizz"
+#     elif (input % 5) == 0:
+#         return "Buzz"
+#     else:
+#         return input
 
-print(fizz_buzz(30))
+# print(fizz_buzz(30))

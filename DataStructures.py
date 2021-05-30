@@ -172,7 +172,68 @@ items = [
 
 # === DICTIONARIES ====
 
+# point = {"x": 1, "y": 2}
+# point = dict(x=1, y=2)
+# point["x"] = 10
+# point["z"] = 20
 
+# if "a" in point:
+#     print(point["a"])
+
+# print(point.get("a"))
+
+# del point["x"]
+# print(point)
+
+# for key, value in point.items():
+#     print(key, value)
+
+
+
+# === Dictionary Comprehension ====
+
+# values = {x * 2 for x in range(5)}
+# print(values)
+
+
+# === Generator Comprehension ===
+# values = {x * 2 for x in range(5)}
+# print(values) 
+
+
+# === Unpacking Operator ===
+
+# numbers = [1, 2, 3]
+# print(*numbers)
+
+# values = list(range(5))
+# values = [*range(5), *"Hello"]
+# print(values)
+
+# first = [1, 2]
+# second = [3]
+# values = [*first, "a", *second, *"Hello"]
+
+# first = {"x": 1}
+# second = {"x": 10, "y": 2}
+# combined = { **first, **second, "z": 1 }
+# print(combined)
+
+
+# ==== Exercise ===
+
+# sentence = "This is a common inteview question"
+# highest = 0
+
+# for item in sentence:
+#     time = sentence.count(item)
+    
+#     if time > highest:
+#         highest = time
+#         highestChar = item
+        
+
+# print(highest, highestChar)
 
 
 
